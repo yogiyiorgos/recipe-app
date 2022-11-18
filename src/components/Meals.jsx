@@ -38,6 +38,7 @@ const Meals = () => {
               <button
                 className='like-btn'
                 onClick={() => addToFavorites(idMeal)}>
+                {/* TODO: When meal favored change the thumb up icon */}
                 <BsHandThumbsUp />
               </button>
             </footer>
